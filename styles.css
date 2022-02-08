@@ -16,20 +16,28 @@ body{
     scroll-behavior: smooth;
 
 }
-.navbar{
-    width: 100%;
-    display: flex;
-    font-family: nunito;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 1rem;
+
+.bg-nav, .bg-nav > *{
+    background-color: #0034FF!important;
+    color: white!important;
+}
+.navbar-nav>li>a{
+    color: white!important;
+}
+.navbar-brand{
+    color: white!important;
+}
+.icon-bar {
+    background-color: white!important;
+}
+.navber-toggle:hover, .navbar-toggle:focus, .navbar-toggle{
+    background: transparent!important;
 }
 a{
-    margin-right: 50px;
     color: black;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none!important;
 }
 .navbar a:hover{
@@ -39,6 +47,12 @@ a{
 .container{
     width: 80%;
     margin: auto;
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 90%;
+        margin: auto;        
+    }
 }
 
 h4{
@@ -59,13 +73,13 @@ p{
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size:  18px;
     line-height: 48px;
     /* color: #000000; */
 }
 .dp{
     width: 100%;
-    height: auto;
+    max-height: 300px;
 }
 .mtb-1{
     margin: 1rem 0;
@@ -150,13 +164,13 @@ h4{
     width: 100%;
     text-align: center;
     color: #0034FF;
-    padding: 20px;
+    padding: 18px;
 }
 
 .web{
     background-color: #0034FF;
     width: 100%;
-    padding: 20px;
+    padding: 18px;
 }
 .text-white{
     color: white;
@@ -205,7 +219,6 @@ h4{
 }
 .finalpic{
     margin-bottom: 100px;
-    width: 100%;
 }
 footer{
     background-color: #03125e;
