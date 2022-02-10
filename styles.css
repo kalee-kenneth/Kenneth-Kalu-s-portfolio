@@ -221,6 +221,9 @@ h4{
     margin-bottom: 100px;
     width: 100%;
 }
+.footspace{
+    margin-right: 10px;
+}
 footer{
     background-color: #03125e;
     color: white;
