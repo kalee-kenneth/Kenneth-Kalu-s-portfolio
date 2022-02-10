@@ -223,6 +223,7 @@ h4{
 }
 .footspace{
     margin-right: 50px;
+    position: absolute;
 }
 footer{
     background-color: #03125e;
